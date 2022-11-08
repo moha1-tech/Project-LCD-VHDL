@@ -1,0 +1,17 @@
+xst -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "LCD.ngc" LCD.ngd
+map -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+xst -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+xst -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "LCD.ngc" LCD.ngd
+map -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml LCD LCD.ncd -o LCD.twr LCD.pcf
+xst -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -ifn LCD.xst -ofn LCD.syr
+ngdbuild -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "LCD.ngc" LCD.ngd
+map -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o LCD_map.ncd LCD.ngd LCD.pcf
+par -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 LCD_map.ncd LCD.ncd LCD.pcf
+trce -ise "C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml LCD LCD.ncd -o LCD.twr LCD.pcf

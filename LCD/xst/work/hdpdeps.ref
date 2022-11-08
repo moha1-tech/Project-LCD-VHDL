@@ -1,0 +1,14 @@
+V3 7
+FL C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.vhd 2010/04/01.20:15:05 J.36
+EN work/LCD 1270152914 FL C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583 PB work/LCD_Library 1270152913
+AR work/LCD/Behavioral 1270152915 \
+      FL C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD.vhd EN work/LCD 1270152914
+FL C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD_Library.vhd 2010/04/01.13:09:54 J.36
+PH work/LCD_Library 1270152912 \
+      FL C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD_Library.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583 CD LCD
+PB work/LCD_Library 1270152913 \
+      FL C:/Jamal_16_Nov_2009/Cours_VHDL/LCD/LCD_Library.vhd PH work/LCD_Library 1270152912
